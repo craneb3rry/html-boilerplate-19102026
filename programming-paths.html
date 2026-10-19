@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Iepazīsti programmēšanas un IT profesijas, to ikdienas pienākumus un nepieciešamās prasmes.">
+    <title>Programmēšanas profesijas — karjeras ceļi IT pasaulē</title>
+    <style>
+        :root {
+            color-scheme: light;
+            font-family: Inter, "Segoe UI", Arial, sans-serif;
+            color: #172033;
+            background: #f4f7fb;
+            font-synthesis: none;
+            text-rendering: optimizeLegibility;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 4.5rem 1.5rem 4rem;
+            color: #fff;
+            background: linear-gradient(135deg, #172554, #3157a4 65%, #4387b8);
+        }
+
+        .hero,
+        main,
+        footer {
+            width: min(100% - 2rem, 1100px);
+            margin-inline: auto;
+        }
+
+        .eyebrow {
+            margin: 0 0 0.75rem;
+            color: #bfdbfe;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            max-width: 760px;
+            margin: 0;
+            font-size: clamp(2.25rem, 6vw, 4rem);
+            line-height: 1.08;
+        }
+
+        .hero p:last-child {
+            max-width: 650px;
+            margin: 1.25rem 0 0;
+            color: #e0eaff;
+            font-size: 1.1rem;
+        }
+
+        main {
+            padding-block: 3rem;
+        }
+
+        .section-heading {
+            display: flex;
+            align-items: end;
+            justify-content: space-between;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        h2 {
+            margin: 0;
+            font-size: clamp(1.6rem, 3vw, 2.2rem);
+        }
+
+        .section-heading p {
+            max-width: 420px;
+            margin: 0;
+            color: #536176;
+        }
+
+        .career-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 290px), 1fr));
+            gap: 1rem;
+        }
+
+        article {
+            padding: 1.4rem;
+            border: 1px solid #e0e7f0;
+            border-radius: 1rem;
+            background: #fff;
+            box-shadow: 0 8px 24px rgb(25 46 79 / 5%);
+        }
+
+        .number {
+            display: inline-grid;
+            width: 2.25rem;
+            height: 2.25rem;
+            place-items: center;
+            margin-bottom: 0.75rem;
+            border-radius: 0.7rem;
+            color: #244a91;
+            background: #e9f0ff;
+            font-size: 0.85rem;
+            font-weight: 800;
+        }
+
+        h3 {
+            margin: 0 0 0.5rem;
+            font-size: 1.15rem;
+        }
+
+        article p {
+            margin: 0;
+            color: #536176;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.45rem;
+            margin: 1rem 0 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .skills li {
+            padding: 0.25rem 0.6rem;
+            border-radius: 999px;
+            color: #30466a;
+            background: #f0f4fa;
+            font-size: 0.78rem;
+            font-weight: 600;
+        }
+
+        .note {
+            margin-top: 2rem;
+            padding: 1.25rem 1.5rem;
+            border-left: 4px solid #4b7bd1;
+            border-radius: 0.5rem;
+            background: #eaf1ff;
+        }
+
+        .note p {
+            margin: 0;
+        }
+
+        footer {
+            padding-block: 0 2rem;
+            color: #66748a;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding-block: 3.25rem;
+            }
+
+            .section-heading {
+                align-items: start;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <p class="eyebrow">Karjeras ceļi IT pasaulē</p>
+            <h1>Atrodi savu vietu programmēšanā</h1>
+            <p>Programmēšanas un tehnoloģiju jomā ir daudz dažādu profesiju. Iepazīsti, ko dara šo profesiju pārstāvji un kādas prasmes viņiem noder.</p>
+        </div>
+    </header>
+
+    <main>
+        <section aria-labelledby="profesijas">
+            <div class="section-heading">
+                <h2 id="profesijas">Profesijas, ko iepazīt</h2>
+                <p>Dažos amatos raksta kodu ik dienu, citos rūpējas par kvalitāti, datiem vai sistēmu darbību.</p>
+            </div>
+
+            <div class="career-grid">
+                <article>
+                    <span class="number" aria-hidden="true">01</span>
+                    <h3>Priekšgala (frontend) izstrādātājs</h3>
+                    <p>Veido vietņu un lietotņu saskarni — visu, ko lietotājs redz un ar ko mijiedarbojas.</p>
+                    <ul class="skills" aria-label="Noderīgas prasmes">
+                        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>UI</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <span class="number" aria-hidden="true">02</span>
+                    <h3>Aizmugursistēmas (backend) izstrādātājs</h3>
+                    <p>Programmē servera puses loģiku, apstrādā datus un nodrošina, ka lietotnes darbojas droši.</p>
+                    <ul class="skills" aria-label="Noderīgas prasmes">
+                        <li>Python</li><li>Java</li><li>API</li><li>Datubāzes</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <span class="number" aria-hidden="true">03</span>
+                    <h3>Pilna cikla (full-stack) izstrādātājs</h3>
+                    <p>Strādā gan ar lietotāja saskarni, gan ar servera pusi, savienojot abas sistēmas daļas.</p>
+                    <ul class="skills" aria-label="Noderīgas prasmes">
+                        <li>HTML/CSS</li><li>JavaScript</li><li>Serveri</li><li>SQL</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <span class="number" aria-hidden="true">04</span>
+                    <h3>Mobilo lietotņu izstrādātājs</h3>
+                    <p>Veido lietotnes viedtālruņiem un planšetēm, pievēršot uzmanību ērtai lietošanai.</p>
+                    <ul class="skills" aria-label="Noderīgas prasmes">
+                        <li>Kotlin</li><li>Swift</li><li>Flutter</li><li>UX</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <span class="number" aria-hidden="true">05</span>
+                    <h3>Spēļu programmētājs</h3>
+                    <p>Programmē videospēļu mehānikas, tēlu darbības un citus interaktīvas spēles elementus.</p>
+                    <ul class="skills" aria-label="Noderīgas prasmes">
+                        <li>C#</li><li>C++</li><li>Unity</li><li>Loģika</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <span class="number" aria-hidden="true">06</span>
+                    <h3>Programmatūras testētājs (QA)</h3>
+                    <p>Pārbauda programmatūru, atrod kļūdas un palīdz komandai nodrošināt uzticamu rezultātu.</p>
+                    <ul class="skills" aria-label="Noderīgas prasmes">
+                        <li>Testēšana</li><li>Uzmanība</li><li>Testu automatizācija</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <span class="number" aria-hidden="true">07</span>
+                    <h3>DevOps inženieris</h3>
+                    <p>Automatizē programmatūras izstrādes un izvietošanas procesus un uztur sistēmu darbību.</p>
+                    <ul class="skills" aria-label="Noderīgas prasmes">
+                        <li>Linux</li><li>Mākonis</li><li>CI/CD</li><li>Docker</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <span class="number" aria-hidden="true">08</span>
+                    <h3>Datu analītiķis</h3>
+                    <p>Apstrādā un pēta datus, lai pamanītu tendences un palīdzētu pieņemt pamatotus lēmumus.</p>
+                    <ul class="skills" aria-label="Noderīgas prasmes">
+                        <li>SQL</li><li>Python</li><li>Statistika</li><li>Vizualizācija</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <span class="number" aria-hidden="true">09</span>
+                    <h3>Kiberdrošības speciālists</h3>
+                    <p>Aizsargā datoru sistēmas un datus, atklāj drošības riskus un palīdz tos novērst.</p>
+                    <ul class="skills" aria-label="Noderīgas prasmes">
+                        <li>Tīklu drošība</li><li>Linux</li><li>Analītika</li>
+                    </ul>
+                </article>
+            </div>
+
+            <aside class="note">
+                <p><strong>Kur sākt?</strong> Izvēlies nelielu projektu, izmēģini kādu programmēšanas valodu un noskaidro, kura joma tevi aizrauj visvairāk. Daudzās profesijās svarīga ir arī komandas sadarbība un vēlme mācīties.</p>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <p>Profesiju nosaukumi un nepieciešamās prasmes var atšķirties atkarībā no uzņēmuma un projekta.</p>
+    </footer>
+</body>
+</html>
